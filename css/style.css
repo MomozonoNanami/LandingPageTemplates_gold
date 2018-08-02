@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    background: url('../img/bg.jpeg');
+    background-size: cover;
+    padding: 20px 150px;
+}
+
+nav img {
+    width: 150px;
+    vertical-align: middle;
+}
+nav h3{
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	font-style: italic;
+	font-weight: 100;
+}
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.menu-main li {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    position: relative; 
+    padding-left: 20px;
+    font-size: 14px; 
+    font-weight: bold;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.menu-main a:before {
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    left: 50%;
+}
+
+.menu-main a {
+    padding: 0 10px;
+}
